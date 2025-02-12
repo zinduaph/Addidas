@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color:#f1c40f ;
+    width: 500px;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+}
+.user {
+      display: flex;
+      gap: 20px;
+}
+body {
+    background-color: #c0392b  ;
+}
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    gap: 20px;
+    object-fit: cover;
+}
+main {
+    border: 8px solid #f7dc6f;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 550px;
+}
+input {
+    padding: 10px 15px;
+    background-color: #f7dc6f;
+}
+#selected {
+    background-color: #dc7633 ;
+    width: 200px;
+    border-radius: 5px;
+    
+}
