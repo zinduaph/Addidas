@@ -30,7 +30,7 @@ main {
     height: 550px;
 }
 input {
-    padding: 10px 15px;
+    padding: 15px 20px;
     background-color: #f7dc6f;
 }
 #selected {
@@ -38,4 +38,12 @@ input {
     width: 200px;
     border-radius: 5px;
     
+}
+#call {
+    position: relative;
+}
+#call i {
+    position: absolute;
+    left: 5px;
+    top: 15px;
 }
